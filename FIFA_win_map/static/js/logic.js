@@ -1,5 +1,5 @@
-var sfCoords = [37.7749, -122.4194];
-var mapZoomLevel = 12;
+var sfCoords = [14.4974, -17.4974];
+var mapZoomLevel = 2;
 
 
 var lightmap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/light-v9/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYTEwZG9hbiIsImEiOiJjamZna3ExeW4zYzdkMnFvZm9wamtnazZwIn0.iiyb2QQD6Oo8BvYe0VmMHg", {
@@ -14,7 +14,7 @@ var darkmap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/dark-v9/tiles
 
 var albertsMap = L.map("map-id", {
     center: sfCoords,
-    zoom: 13
+    zoom: 3
 });
 
 lightmap.addTo(albertsMap);
@@ -49,6 +49,21 @@ d3.csv(urlInfo, function(error, response) {
             var allMarks = L.layerGroup(countryMarkers);
             // var outofservice = L.layerGroup(noService);
             // var zipcar = L.layerGroup(carshareMarkers);
+
+            function markerSize(population) {
+                return population * 100000;
+            }
+
+            for (var i = 0; i < response.length; i++) {
+                L.circle([response[i].Lat, response[i].Lon], {
+                    fillOpacity: 0.75,
+                    color: "steelblue",
+                    weight: 1,
+                    // Setting our circle's radius equal to the output of our markerSize function
+                    // This will make our marker's size proportionate to its population
+                    radius: markerSize(response[i].Wins)
+                }).bindPopup("<h1>" + response[i].Country + "</h1> <hr> <h3>Titles: " + response[i].Total + "</h3>").addTo(albertsMap);
+            }
 
             var baseLayers = {
                 Light: lightmap,
