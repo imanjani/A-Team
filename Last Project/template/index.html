@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>World Cup 2018 Prediction</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+    <link href="/static/css/blog.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
+  </head>
+
+  <body>
+
+    <div class="container">
+      
+
+      <div class="nav-scroller py-1 mb-2">
+        <nav class="nav d-flex justify-content-between">
+          <a class="p-2 text-white" href="#">Home Page</a>
+          <a class="p-2 text-white" href="#">Team Map</a>
+          <a class="p-2 text-primary"> Team Repos:</a>
+          <a class="p-2 text-white" href="https://github.com/tfox72" target="_blank">Todd Fox</a>
+          <a class="p-2 text-white" href="https://github.com/a10doan" target="_blank">Alber Doan</a>
+          <a class="p-2 text-white" href="https://github.com/danapong" target="_blank">Dana Pong</a>
+          <a class="p-2 text-white" href="https://github.com/jdgonz" target="_blank">Joel Gonzales</a>
+          <a class="p-2 text-white" href="https://github.com/imanjani1" target="_blank">Iman Jani</a>
+        </nav>
+      </div>
+
+      <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
+          <img src="../images/test.png" class="img-fluid" alt="Responsive image">
+        <div class="col-md-12 px-0">
+          <h1 class="display-4 font-italic">Who will win the 2018 FIFA World Cup?</h1>
+        </div>
+      </div>
+
+
+    <main role="main" class="container">
+      <div class="row">
+        <div class="col-md-8 blog-main">
+          <h3 class="pb-3 mb-4 font-italic border-bottom">
+            Predicting the World Cup through Machine Learning
+          </h3>
+
+          <div class="blog-post">
+            <h2 class="blog-post-title">What is Machine Learning?</h2>
+            <p class="blog-post-meta">September 7, 2017 by <a href="http://danfaggella.com/">Daniel Faggella</a></p>
+
+            <p>“Machine Learning is the science of getting computers to learn and act like humans do, and improve their learning over time in autonomous fashion, by feeding them data and information in the form of observations and real-world interactions.”</p>
+            <hr>
+            <p>Definitions provided by <a href="https://www.techemergence.com/what-is-machine-learning/">Techemergence</a></p>
+            <h3>Machine Learning Basic Concepts</h3>
+            <p>There are many different types of machine learning algorithms, with hundreds published each day, and they’re typically grouped by either learning style (i.e. supervised learning, unsupervised learning, semi-supervised learning) or by similarity in form or function (i.e. classification, regression, decision tree, clustering, deep learning, etc.).</p>
+            <h3>Our Analysis was conducted in Scikit-Learn</h3>
+            <p>A sample of our code below:</p>
+            <pre><code class="text-danger">from sklearn import datasets
+              import numpy as np
+              
+              iris = datasets.load_iris()
+              X = iris.data[:, [2, 3]]
+              y = iris.target
+              
+              print('Class labels:', np.unique(y))</code></pre>
+            <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+
+            <h3>More Good Stuff Here</h3>
+            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <ul>
+              <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
+              <li>Donec id elit non mi porta gravida at eget metus.</li>
+              <li>Nulla vitae elit libero, a pharetra augue.</li>
+            </ul>
+            <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
+            <ol>
+              <li>Vestibulum id ligula porta felis euismod semper.</li>
+              <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
+              <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
+            </ol>
+            <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
+          </div><!-- /.blog-post -->
+
+          <div class="blog-post">
+            <h2 class="blog-post-title">Blah Blah</h2>
+            <p class="blog-post-meta">December 23, 2013 by <a href="#">Jacob</a></p>
+
+            <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+            <blockquote>
+              <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            </blockquote>
+            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+            <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+          </div><!-- /.blog-post -->
+
+
+        </div><!-- /.blog-main -->
+
+        <aside class="col-md-4 blog-sidebar">
+         
+
+          <div class="p-3">
+            <h4 class="font-italic">Europe</h4>
+            <ol class="list-unstyled mb-0">
+              <li><a href="http://www.fifa.com/worldcup/stories/y=2017/m=11/news=belgium-2921180.html" target="_blank">Belgium</a></li>
+              <li><a href="http://www.fifa.com/worldcup/stories/y=2017/m=11/news=croatia-2921186.html" target="_blank">Croatia</a></li>
+              <li><a href="http://www.fifa.com/worldcup/stories/y=2017/m=11/news=denmark-2921187.html" target="_blank">Denmark</a></li>
+              <li><a href="http://www.fifa.com/worldcup/stories/y=2017/m=11/news=england-2921188.html" target="_blank">England</a></li>
+              <li><a href="http://www.fifa.com/worldcup/stories/y=2017/m=11/news=france-2921189.html" target="_blank">France</a></li>
+              <li><a href="http://www.fifa.com/worldcup/stories/y=2017/m=11/news=germany-2921190.html" target="_blank">Germany</a></li>
+              <li><a href="http://www.fifa.com/worldcup/stories/y=2017/m=11/news=iceland-2921191.html" target="_blank">Iceland</a></li>
+              <li><a href="http://www.fifa.com/worldcup/stories/y=2017/m=11/news=poland-2921192.html" target="_blank">Poland</a></li>
+              <li><a href="http://www.fifa.com/worldcup/stories/y=2017/m=11/news=portugal-2921193.html" target="_blank">Portugal</a></li>
+              <li><a href="http://www.fifa.com/worldcup/stories/y=2017/m=11/news=russia-2921194.html" target="_blank">Russia</a></li>
+              <li><a href="http://www.fifa.com/worldcup/stories/y=2017/m=11/news=serbia-2921195.html" target="_blank">Serbia</a></li>
+              <li><a href="http://www.fifa.com/worldcup/stories/y=2017/m=11/news=spain-2921196.html" target="_blank">Spain</a></li>
+              <li><a href="http://www.fifa.com/worldcup/stories/y=2017/m=11/news=sweden-2921198.html" target="_blank">Sweden</a></li>
+              <li><a href="http://www.fifa.com/worldcup/stories/y=2017/m=11/news=switzerland-2921197.html" target="_blank">Switzerland</a></li>
+            </ol>
+          </div>
+
+          <div class="p-3">
+            <h4 class="font-italic">Africa and Asia</h4>
+            <ol class="list-unstyled">
+              <li><a href="http://www.fifa.com/worldcup/stories/y=2017/m=11/news=egypt-2921199.html" target="_blank">Egypt</a></li>
+              <li><a href="http://www.fifa.com/worldcup/stories/y=2017/m=11/news=morocco-2921201.html" target="_blank">Morocco</a></li>
+              <li><a href="http://www.fifa.com/worldcup/stories/y=2017/m=11/news=nigeria-2921200.html" target="_blank">Nigeria</a></li>
+              <li><a href="http://www.fifa.com/worldcup/stories/y=2017/m=11/news=senegal-2921202.html" target="_blank">Sengal</a></li>
+              <li><a href="http://www.fifa.com/worldcup/stories/y=2017/m=11/news=tunisia-2921203.html" target="_blank">Tunisia</a></li>
+              <li><a href="http://www.fifa.com/worldcup/stories/y=2017/m=11/news=australia-2921204.html" target="_blank">Australia</a></li>
+              <li><a href="http://www.fifa.com/worldcup/stories/y=2017/m=11/news=iran-2921205.html" target="_blank">Iran</a></li>
+              <li><a href="http://www.fifa.com/worldcup/stories/y=2017/m=11/news=japan-2921206.html" target="_blank">Japan</a></li>
+              <li><a href="http://www.fifa.com/worldcup/stories/y=2017/m=11/news=korea-republic-2921207.html" target="_blank">Korea Republic</a></li>
+              <li><a href="http://www.fifa.com/worldcup/stories/y=2017/m=11/news=saudi-arabia-2921208.html" target="_blank">Saudi Arabia</a></li>
+            </ol>
+          </div>
+
+          <div class="p-3">
+              <h4 class="font-italic">Americas and Oceania</h4>
+              <ol class="list-unstyled">
+                <li><a href="http://www.fifa.com/worldcup/stories/y=2017/m=11/news=costa-rica-2921209.html" target="_blank">Cost Rica</a></li>
+                <li><a href="http://www.fifa.com/worldcup/stories/y=2017/m=11/news=mexico-2921210.html" target="_blank">Mexico</a></li>
+                <li><a href="http://www.fifa.com/worldcup/stories/y=2017/m=11/news=panama-2921211.html" target="_blank">Panama</a></li>
+                <li><a href="http://www.fifa.com/worldcup/stories/y=2017/m=11/news=argentina-2921174.html" target="_blank">Argentia</a></li>
+                <li><a href="http://www.fifa.com/worldcup/stories/y=2017/m=11/news=brazil-2921212.html" target="_blank">Brazil</a></li>
+                <li><a href="http://www.fifa.com/worldcup/stories/y=2017/m=11/news=colombia-2921213.html" target="_blank">Colombia</a></li>
+                <li><a href="http://www.fifa.com/worldcup/stories/y=2017/m=11/news=peru-2921214.html" target="_blank">Peru</a></li>
+                <li><a href="http://www.fifa.com/worldcup/stories/y=2017/m=11/news=uruguay-2921215.html" target="_blank">Uruguay</a></li>
+           
+              </ol>
+            </div>
+        </aside><!-- /.blog-sidebar -->
+
+      </div><!-- /.row -->
+
+    </main><!-- /.container -->
+
+    <footer class="blog-footer">
+        <a href="#">Back to top</a>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="/static/js/jquery-slim.min.js"><\/script>')</script>
+    <script src="/static/js/popper.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/holder.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootlint/0.14.2/bootlint.min.js">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.0.0/cyborg/bootstrap.min.css" rel="stylesheet" integrity="sha384-HOjmaybB3GQTM8HunY46MvK7ngm9b/eRGOWESCQ/s+Vk4omobTY5+FXqurpSFcbz" crossorigin="anonymous">">
+    <script>
+      Holder.addTheme('thumb', {
+        bg: '#55595c',
+        fg: '#eceeef',
+        text: 'Thumbnail'
+      });
+    </script>
+  </body>
+</html>
