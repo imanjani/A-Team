@@ -28,6 +28,7 @@ d3.csv(urlInfo, function(error, response) {
         var countryCoords=[];
         var countryMarkers=[];
         var stationMarkers=[];
+        var countryFlags=[];
 
         console.log(response);
         console.log(response.length);
@@ -141,32 +142,30 @@ d3.csv(urlInfo, function(error, response) {
             console.log(countryCoords);
 
             for (var i =0; i<response.length;i++) {
-                countryMarkers.push(L.marker([response[i].Lat, response[i].Lon], {icon:team_list[i]}).bindPopup(response[i].Country));
+                L.marker([response[i].Lat, response[i].Lon], {icon:team_list[i]}).bindPopup('<h3><b>'+response[i].Country+'</b></h3>').addTo(albertsMap);
             }
-            
-            var allMarks = L.layerGroup(countryMarkers);
-            // var outofservice = L.layerGroup(noService);
-            // var zipcar = L.layerGroup(carshareMarkers);
 
             function markerSize(population) {
                 return population * 50000;
             }
 
             for (var i = 0; i < response.length; i++) {
-                L.circle([response[i].Lat, response[i].Lon], {
+                countryMarkers.push(L.circle([response[i].Lat, response[i].Lon], {
                     fillOpacity: 0.75,
                     color: "green",
                     weight: 1,
                     radius: markerSize(response[i].Total)
-                }).bindPopup("<h1>" + response[i].Country + "</h1> <hr> <h3>Titles: " + response[i].Total + "</h3>").addTo(albertsMap);
+                }).bindPopup("<h2>" + response[i].Country + "</h2><hr><h3>Total Titles: " + response[i].Total + "</h3>"));
             }
+
+            var allMarks = L.layerGroup(countryMarkers);
 
             var baseLayers = {
                 Light: lightmap,
                 Dark: darkmap,
             };
             var overlayLayers = {
-                "Team Info": allMarks
+                "Total FIFA Titles": allMarks
             };
 
             L.control
