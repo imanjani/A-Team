@@ -73,4 +73,11 @@ new_df['Ttl Games'] = new_df['Wins'] + new_df['Draws'] + new_df['Losses']
 new_df['Win Pct'] = new_df['Wins'] / new_df['Ttl Games']
 new_df['PPG'] = new_df['Points Scored'] / new_df['Ttl Games']
 
+placement_df = pd.read_csv('raw_winners.csv')
+
+new_df = pd.merge(new_df, placement_df,  how='left', left_on=['Year','Country'], right_on = ['year','team'])
+
+
+new_df = new_df[new_df['Ttl Games'] != 0]
+
 new_df.to_csv("new_dataset.csv")
