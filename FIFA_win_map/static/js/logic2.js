@@ -155,7 +155,7 @@ d3.csv(urlInfo, function(error, response) {
                     color: "green",
                     weight: 1,
                     radius: markerSize(response[i].Total)
-                }).bindPopup("<h2>" + response[i].Country + "</h2><hr><h3>Total Titles: " + response[i].Total + "</h3>"));
+                }).bindPopup("<h2>" + response[i].Country + "</h2><hr><h3>Total Finals: " + response[i].Total + "<br>Total Wins: " + response[i].Wins + "<br>Years Won: " + response[i].Years + "</h3"));
             }
 
             var allMarks = L.layerGroup(countryMarkers);
