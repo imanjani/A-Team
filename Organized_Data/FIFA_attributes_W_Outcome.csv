@@ -1,0 +1,608 @@
+Year,Country,League,ATT,MID,DEF,OVR,Outcome_WC
+2018,Spain,Men's National,84,86,86,86,0
+2018,Brazil,Men's National,86,83,85,85,0
+2018,Germany,Men's National,81,85,84,85,0
+2018,Belgium,Men's National,86,84,85,84,0
+2018,France,Men's National,83,86,81,84,0
+2018,Portugal,Men's National,85,82,80,83,0
+2018,Italy,Men's National,85,81,85,83,0
+2018,Argentina,Men's National,87,81,80,82,0
+2018,England,Men's National,83,81,81,82,0
+2018,Uruguay,Men's National,86,76,79,80,0
+2018,Netherlands,Men's National,80,80,80,80,0
+2018,Colombia,Men's National,81,77,78,79,0
+2018,Poland,Men's National,82,75,79,78,0
+2018,Russia,Men's National,80,78,76,78,0
+2018,Mexico,Men's National,79,79,76,78,0
+2018,Denmark,Men's National,75,78,76,78,0
+2018,Switzerland,Men's National,75,77,78,78,0
+2018,Turkey,Men's National,80,77,75,77,0
+2018,Austria,Men's National,80,77,75,77,0
+2018,Chile,Men's National,77,80,75,77,0
+2018,Greece,Men's National,78,74,77,76,0
+2018,Sweden,Men's National,77,76,76,76,0
+2018,Côte d'Ivoire,Men's National,75,77,77,76,0
+2018,Wales,Men's National,82,72,76,75,0
+2018,United States,Men's National,76,76,74,75,0
+2018,Scotland,Men's National,75,75,74,75,0
+2018,Ireland,Men's National,75,74,75,75,0
+2018,Czech Republic,Men's National,75,74,73,75,0
+2018,Slovenia,Men's National,73,75,74,75,0
+2018,Paraguay,Men's National,75,74,72,74,0
+2018,Norway,Men's National,74,73,73,74,0
+2018,Venezuela,Men's National,76,72,70,73,0
+2018,Saudi Arabia,Men's National,73,73,72,73,0
+2018,Australia,Men's National,69,73,72,73,0
+2018,Egypt,Men's National,80,72,70,72,0
+2018,Iceland,Men's National,73,75,70,72,0
+2018,Peru,Men's National,73,72,71,72,0
+2018,South Africa,Men's National,73,71,70,72,0
+2018,Romania,Men's National,72,72,70,72,0
+2018,Hungary,Men's National,71,72,71,72,0
+2018,Ecuador,Men's National,68,71,72,72,0
+2018,Cameroon,Men's National,75,73,69,71,0
+2018,Northern Ireland,Men's National,71,71,71,71,0
+2018,China PR,Men's National,70,70,70,70,0
+2018,Bulgaria,Men's National,70,70,69,70,0
+2018,Canada,Men's National,74,70,66,69,0
+2018,Finland,Men's National,71,68,68,69,0
+2018,New Zealand,Men's National,69,66,67,68,0
+2018,Bolivia,Men's National,69,67,66,67,0
+2018,India,Men's National,63,58,58,60,0
+2017,Spain,Men's National,84,85,85,85,0
+2017,Germany,Men's National,82,86,84,85,0
+2017,Brazil,Men's National,87,82,85,84,0
+2017,Belgium,Men's National,85,83,84,84,0
+2017,Argentina,Men's National,87,83,80,83,0
+2017,Portugal,Men's National,85,82,81,83,0
+2017,France,Men's National,82,83,81,83,0
+2017,Italy,Men's National,82,81,85,83,0
+2017,England,Men's National,82,81,81,81,0
+2017,Netherlands,Men's National,81,81,80,81,0
+2017,Uruguay,Men's National,85,76,80,79,0
+2017,Poland,Men's National,82,77,77,79,0
+2017,Chile,Men's National,79,80,77,79,0
+2017,Colombia,Men's National,79,79,76,78,0
+2017,Mexico,Men's National,79,78,74,78,0
+2017,Turkey,Men's National,78,79,78,78,0
+2017,Denmark,Men's National,76,79,76,78,0
+2017,Switzerland,Men's National,74,78,78,78,0
+2017,Austria,Men's National,78,77,77,77,0
+2017,Côte d'Ivoire,Men's National,78,78,76,76,0
+2017,Sweden,Men's National,77,76,76,76,0
+2017,Russia,Men's National,77,75,75,76,0
+2017,Greece,Men's National,77,74,78,76,0
+2017,Wales,Men's National,76,75,76,76,0
+2017,Ireland,Men's National,76,76,76,75,0
+2017,United States,Men's National,75,75,76,75,0
+2017,Paraguay,Men's National,74,75,72,75,0
+2017,Czech Republic,Men's National,73,75,74,75,0
+2017,Ecuador,Men's National,74,76,71,74,0
+2017,Scotland,Men's National,74,75,71,74,0
+2017,Slovenia,Men's National,73,76,70,74,0
+2017,Venezuela,Men's National,76,71,71,73,0
+2017,Romania,Men's National,74,71,72,73,0
+2017,Norway,Men's National,72,74,71,73,0
+2017,Egypt,Men's National,76,71,69,72,0
+2017,Hungary,Men's National,72,73,70,72,0
+2017,Australia,Men's National,71,71,72,72,0
+2017,South Africa,Men's National,70,72,72,72,0
+2017,Cameroon,Men's National,71,73,71,71,0
+2017,Finland,Men's National,71,70,70,71,0
+2017,Northern Ireland,Men's National,69,72,72,71,0
+2017,Peru,Men's National,72,70,68,70,0
+2017,Bulgaria,Men's National,69,70,69,70,0
+2017,Canada,Men's National,68,69,65,68,0
+2017,Bolivia,Men's National,71,67,66,67,0
+2017,China PR,Men's National,66,64,60,64,0
+2017,India,Men's National,63,59,58,60,0
+2016,Argentina,Men's National,88,80,77,82,0
+2016,France,Men's National,82,82,80,82,0
+2016,Portugal,Men's National,85,80,79,81,0
+2016,Belgium,Men's National,80,82,77,81,0
+2016,Italy,Men's National,79,79,84,81,0
+2016,England,Men's National,81,79,80,80,0
+2016,Netherlands,Men's National,81,78,77,79,0
+2016,Uruguay,Men's National,84,75,77,78,0
+2016,Switzerland,Men's National,76,77,78,78,0
+2016,Chile,Men's National,80,77,75,77,0
+2016,Russia,Men's National,78,76,77,77,0
+2016,Turkey,Men's National,77,78,76,77,0
+2016,Mexico,Men's National,76,79,76,77,0
+2016,Poland,Men's National,82,75,74,76,0
+2016,Côte d'Ivoire,Men's National,78,77,71,76,0
+2016,Colombia,Men's National,75,77,75,76,0
+2016,Denmark,Men's National,74,77,75,76,0
+2016,Greece,Men's National,76,72,76,75,0
+2016,Ireland,Men's National,75,74,75,75,0
+2016,Austria,Men's National,73,77,76,75,0
+2016,Czech Republic,Men's National,73,75,73,75,0
+2016,Scotland,Men's National,76,74,72,74,0
+2016,Sweden,Men's National,76,73,74,74,0
+2016,United States,Men's National,74,74,73,74,0
+2016,Wales,Men's National,74,74,73,74,0
+2016,Ecuador,Men's National,74,72,69,73,0
+2016,Paraguay,Men's National,73,71,71,73,0
+2016,Romania,Men's National,71,72,73,73,0
+2016,Slovenia,Men's National,70,73,72,73,0
+2016,Norway,Men's National,70,72,71,73,0
+2016,Cameroon,Men's National,69,69,77,73,0
+2016,Australia,Men's National,71,72,69,72,0
+2016,Hungary,Men's National,73,70,68,71,0
+2016,Venezuela,Men's National,72,72,70,71,0
+2016,South Africa,Men's National,67,71,72,71,0
+2016,Northern Ireland,Men's National,68,69,69,70,0
+2016,Finland,Men's National,66,71,67,70,0
+2016,China PR,Men's National,70,67,66,69,0
+2016,Bulgaria,Men's National,69,70,68,69,0
+2016,Egypt,Men's National,69,69,67,69,0
+2016,Peru,Men's National,69,66,67,68,0
+2016,Canada,Men's National,68,69,65,67,0
+2016,Bolivia,Men's National,61,65,65,65,0
+2016,New Zealand,Men's National,66,61,66,64,0
+2016,India,Men's National,61,56,57,58,0
+2015,Germany,International,82,82,78,84,0
+2015,Spain,International,80,84,82,83,0
+2015,Argentina,International,86,80,81,82,0
+2015,Brazil,International,82,80,83,82,0
+2015,Belgium,International,80,81,77,81,0
+2015,France,International,80,80,80,81,0
+2015,Portugal,International,83,80,75,80,0
+2015,England,International,81,78,78,80,0
+2015,Italy,International,79,79,77,79,0
+2015,Netherlands,International,78,82,77,79,0
+2015,Colombia,International,81,78,75,78,0
+2015,Russia,International,78,77,75,77,0
+2015,Switzerland,International,76,77,78,77,0
+2015,Mexico,International,79,77,74,76,0
+2015,Turkey,International,78,77,75,76,0
+2015,Chile,International,76,76,73,76,0
+2015,Uruguay,International,75,74,77,76,0
+2015,Poland,International,78,72,74,75,0
+2015,Sweden,International,80,75,72,74,0
+2015,Côte d'Ivoire,International,78,75,68,74,0
+2015,Greece,International,78,73,74,74,0
+2015,Denmark,International,75,72,74,74,0
+2015,Ireland,International,74,75,71,74,0
+2015,Czech Republic,International,73,73,72,74,0
+2015,Austria,International,71,74,74,74,0
+2015,Scotland,International,76,72,70,73,0
+2015,United States,International,76,70,72,73,0
+2015,Wales,International,73,73,71,73,0
+2015,Cameroon,International,75,71,74,72,0
+2015,Slovenia,International,72,71,68,72,0
+2015,Romania,International,71,72,70,72,0
+2015,Paraguay,International,72,71,71,71,0
+2015,Venezuela,International,72,70,72,71,0
+2015,Peru,International,71,71,70,71,0
+2015,Norway,International,69,72,70,71,0
+2015,Hungary,International,70,71,67,70,0
+2015,South Africa,International,68,71,66,70,0
+2015,Korea Republic,International,66,70,67,70,0
+2015,Ecuador,International,71,70,67,69,0
+2015,Australia,International,71,70,66,69,0
+2015,Northern Ireland,International,69,69,67,69,0
+2015,Finland,International,69,68,68,69,0
+2015,Egypt,International,72,68,65,68,0
+2015,Bulgaria,International,67,70,66,68,0
+2015,Bolivia,International,71,64,67,67,0
+2015,New Zealand,International,65,60,65,65,0
+2015,India,International,59,54,53,57,0
+2014,Spain,International,86,84,82,84,0
+2014,Brazil,International,83,81,83,83,0
+2014,Germany,International,82,84,78,83,0
+2014,Argentina,International,85,82,79,82,0
+2014,France,International,82,80,80,81,0
+2014,Belgium,International,75,81,79,81,0
+2014,England,International,85,79,78,80,0
+2014,Portugal,International,82,79,80,80,0
+2014,Italy,International,79,78,78,80,0
+2014,Netherlands,International,84,76,75,79,0
+2014,Turkey,International,76,79,76,78,0
+2014,Colombia,International,77,78,75,77,0
+2014,Russia,International,76,75,75,77,0
+2014,Uruguay,International,82,75,76,76,0
+2014,Chile,International,77,75,70,76,0
+2014,Côte d'Ivoire,International,77,74,74,76,0
+2014,Switzerland,International,74,76,77,76,0
+2014,Sweden,International,77,74,74,75,0
+2014,Poland,International,77,73,74,75,0
+2014,Cameroon,International,75,73,76,75,0
+2014,Czech Republic,International,73,74,73,75,0
+2014,Mexico,International,78,73,72,74,0
+2014,Paraguay,International,78,73,70,74,0
+2014,Greece,International,76,72,76,74,0
+2014,Denmark,International,75,74,74,74,0
+2014,United States,International,75,72,71,74,0
+2014,Ireland,International,75,75,73,73,0
+2014,Scotland,International,75,74,68,73,0
+2014,Romania,International,73,72,71,73,0
+2014,Austria,International,72,74,71,73,0
+2014,Slovenia,International,71,73,71,73,0
+2014,Wales,International,70,74,72,73,0
+2014,Peru,International,77,69,70,72,0
+2014,Korea Republic,International,75,71,69,72,0
+2014,Ecuador,International,73,73,67,72,0
+2014,Norway,International,71,73,70,72,0
+2014,Venezuela,International,72,69,72,71,0
+2014,Northern Ireland,International,71,69,69,70,0
+2014,Australia,International,72,70,65,69,0
+2014,Egypt,International,70,67,64,69,0
+2014,Hungary,International,69,67,67,69,0
+2014,Finland,International,68,71,69,69,0
+2014,South Africa,International,65,69,69,69,0
+2014,Bulgaria,International,66,69,67,68,0
+2014,New Zealand,International,65,55,64,65,0
+2014,Bolivia,International,68,57,63,63,0
+2014,India,International,59,54,53,57,0
+2013,Spain,International,84,86,83,86,0
+2013,Germany,International,85,84,82,84,0
+2013,Italy,International,80,84,81,83,0
+2013,Argentina,International,85,80,78,82,0
+2013,Brazil,International,83,81,82,82,0
+2013,England,International,84,79,81,81,0
+2013,France,International,82,78,80,81,0
+2013,Netherlands,International,85,79,75,80,0
+2013,Portugal,International,82,82,80,80,0
+2013,Belgium,International,79,79,79,80,0
+2013,Uruguay,International,84,77,78,79,0
+2013,Colombia,International,80,75,77,78,0
+2013,Russia,International,78,78,76,78,0
+2013,Côte d'Ivoire,International,79,77,72,77,0
+2013,Turkey,International,78,76,74,77,0
+2013,Cameroon,International,79,76,76,76,0
+2013,Chile,International,78,76,72,76,0
+2013,Switzerland,International,75,77,75,76,0
+2013,Sweden,International,81,75,73,75,0
+2013,Mexico,International,76,73,74,75,0
+2013,Czech Republic,International,73,74,75,75,0
+2013,Poland,International,79,74,67,74,0
+2013,Paraguay,International,79,73,70,74,0
+2013,United States,International,74,77,67,74,0
+2013,Ireland,International,74,74,72,74,0
+2013,Greece,International,74,72,76,74,0
+2013,Austria,International,73,75,74,74,0
+2013,Denmark,International,72,74,75,74,0
+2013,Norway,International,79,71,72,73,0
+2013,Scotland,International,74,74,71,73,0
+2013,Peru,International,76,69,69,72,0
+2013,Slovenia,International,72,69,71,72,0
+2013,Korea Republic,International,75,69,70,71,0
+2013,Venezuela,International,74,69,70,71,0
+2013,Romania,International,73,69,69,71,0
+2013,Ecuador,International,72,73,66,71,0
+2013,Northern Ireland,International,70,68,69,70,0
+2013,South Africa,International,68,69,68,70,0
+2013,Australia,International,68,69,68,70,0
+2013,Finland,International,66,71,69,70,0
+2013,Hungary,International,69,68,67,69,0
+2013,Bulgaria,International,69,67,66,68,0
+2013,Egypt,International,66,67,68,68,0
+2013,Bolivia,International,71,64,65,66,0
+2013,New Zealand,International,66,58,64,65,0
+2013,India,International,60,56,57,58,0
+2012,Spain,International,86,87,85,86,0
+2012,France,International,86,82,81,83,0
+2012,Italy,International,84,83,81,83,0
+2012,Brazil,International,84,80,84,83,0
+2012,Germany,International,83,84,81,83,0
+2012,Argentina,International,89,80,76,82,0
+2012,England,International,82,84,82,82,0
+2012,Netherlands,International,88,84,76,81,0
+2012,Portugal,International,84,81,81,81,0
+2012,Uruguay,International,84,76,77,79,0
+2012,Russia,International,81,79,78,79,0
+2012,Côte d'Ivoire,International,83,79,75,78,0
+2012,Belgium,International,80,78,80,78,0
+2012,Croatia,International,79,79,74,78,0
+2012,Colombia,International,85,77,76,76,0
+2012,Sweden,International,83,76,73,76,0
+2012,Chile,International,80,77,71,76,0
+2012,Cameroon,International,79,75,73,76,0
+2012,Switzerland,International,79,74,76,76,0
+2012,Turkey,International,78,76,74,76,0
+2012,Ireland,International,77,76,74,76,0
+2012,Mexico,International,83,74,74,75,0
+2012,Poland,International,80,75,73,75,0
+2012,Denmark,International,78,75,75,75,0
+2012,United States,International,75,77,74,75,0
+2012,Scotland,International,73,74,74,75,0
+2012,Greece,International,72,74,76,75,0
+2012,Norway,International,75,74,74,74,0
+2012,Slovenia,International,78,71,69,73,0
+2012,Austria,International,75,74,73,73,0
+2012,Ecuador,International,72,75,69,73,0
+2012,Peru,International,80,75,69,72,0
+2012,Romania,International,75,68,70,72,0
+2012,Australia,International,74,70,71,71,0
+2012,Hungary,International,73,72,69,71,0
+2012,Northern Ireland,International,72,69,70,71,0
+2012,South Africa,International,71,70,69,71,0
+2012,Korea Republic,International,69,73,70,71,0
+2012,Bulgaria,International,68,69,68,71,0
+2012,Finland,International,68,71,70,70,0
+2012,Egypt,International,69,69,70,68,0
+2012,New Zealand,International,65,66,65,66,0
+2011,Spain,International,86,85,84,85,0
+2011,Argentina,International,85,81,80,83,0
+2011,England,International,83,85,83,83,0
+2011,Brazil,International,82,81,82,83,0
+2011,France,International,83,83,80,82,0
+2011,Germany,International,83,81,81,82,0
+2011,Italy,International,79,81,79,82,0
+2011,Holland,International,85,82,76,81,0
+2011,Portugal,International,82,78,81,81,0
+2011,Russia,International,82,77,78,79,0
+2011,Uruguay,International,83,74,79,78,0
+2011,Croatia,International,81,79,77,78,0
+2011,Turkey,International,79,79,76,78,0
+2011,Mexico,International,78,78,76,77,0
+2011,Belgium,International,77,78,79,77,0
+2011,Czech Republic,International,77,77,74,77,0
+2011,Sweden,International,81,73,75,76,0
+2011,Cameroon,International,78,78,75,76,0
+2011,Ireland,International,77,74,75,76,0
+2011,Switzerland,International,75,76,75,76,0
+2011,Scotland,International,77,74,74,75,0
+2011,Greece,International,76,78,74,75,0
+2011,Denmark,International,75,73,75,75,0
+2011,United States,International,72,77,74,75,0
+2011,Norway,International,80,73,76,74,0
+2011,Poland,International,78,74,67,74,0
+2011,Australia,International,76,73,72,73,0
+2011,Austria,International,73,69,73,73,0
+2011,South Africa,International,74,71,70,72,0
+2011,Bulgaria,International,73,73,70,72,0
+2011,Hungary,International,72,75,67,72,0
+2011,Ecuador,International,67,76,67,72,0
+2011,Romania,International,67,72,73,72,0
+2011,Finland,International,73,71,73,71,0
+2011,Slovenia,International,73,71,71,71,0
+2011,Northern Ireland,International,68,71,74,71,0
+2011,Korea Republic,International,76,71,67,70,0
+2011,China PR,International,59,64,65,65,0
+2011,New Zealand,International,67,63,66,64,0
+2010,Spain,International,87,86,83,85,1
+2010,Brazil,International,86,80,83,84,0
+2010,Argentina,International,87,79,78,83,0
+2010,France,International,85,84,83,83,0
+2010,Italy,International,83,83,81,83,0
+2010,England,International,82,84,84,83,0
+2010,Germany,International,84,81,81,82,3
+2010,Portugal,International,79,84,82,82,0
+2010,Netherlands,International,83,82,77,80,2
+2010,Russia,International,82,77,79,80,0
+2010,Uruguay,International,84,66,78,78,4
+2010,Croatia,International,81,77,78,78,0
+2010,Turkey,International,78,78,77,78,0
+2010,Czech Republic,International,77,75,75,78,0
+2010,Sweden,International,82,75,73,77,0
+2010,Mexico,International,75,77,76,77,0
+2010,Cameroon,International,80,75,75,76,0
+2010,Ukraine,International,78,74,72,76,0
+2010,Belgium,International,76,78,77,76,0
+2010,Greece,International,76,78,76,76,0
+2010,Switzerland,International,75,77,75,76,0
+2010,Romania,International,79,68,76,75,0
+2010,Republic of Ireland,International,78,73,74,75,0
+2010,Norway,International,77,74,76,75,0
+2010,Denmark,International,75,76,75,75,0
+2010,Scotland,International,75,76,74,75,0
+2010,Australia,International,75,74,73,75,0
+2010,Paraguay,International,75,71,74,75,0
+2010,United States,International,72,76,73,74,0
+2010,Bulgaria,International,80,74,70,73,0
+2010,Austria,International,72,71,73,73,0
+2010,Finland,International,75,69,75,72,0
+2010,Hungary,International,73,73,69,72,0
+2010,Poland,International,72,73,66,72,0
+2010,South Africa,International,72,70,70,72,0
+2010,Ecuador,International,67,74,68,72,0
+2010,Northern Ireland,International,72,70,74,71,0
+2010,Slovenia,International,74,69,68,70,0
+2010,Korea Republic,International,70,70,67,70,0
+2010,China PR,International,67,66,64,66,0
+2010,New Zealand,International,67,59,64,62,0
+2009,Spain,International,87,85,83,85,0
+2009,Italy,International,86,84,82,85,0
+2009,Argentina,International,87,84,82,84,0
+2009,Brazil,International,85,83,82,84,0
+2009,England,International,84,84,84,84,0
+2009,France,International,85,83,83,83,0
+2009,Germany,International,84,83,83,83,0
+2009,Holland,International,86,81,80,82,0
+2009,Portugal,International,78,84,82,82,0
+2009,Russia,International,82,76,76,78,0
+2009,Croatia,International,79,79,78,78,0
+2009,Turkey,International,79,78,75,78,0
+2009,Mexico,International,77,77,79,78,0
+2009,Sweden,International,83,74,74,77,0
+2009,Denmark,International,79,76,73,77,0
+2009,Switzerland,International,77,78,74,77,0
+2009,Czech Republic,International,77,76,78,77,0
+2009,Greece,International,77,77,76,76,0
+2009,Romania,International,76,77,74,76,0
+2009,Scotland,International,74,76,73,76,0
+2009,Uruguay,International,68,76,76,76,0
+2009,Paraguay,International,81,73,75,75,0
+2009,Republic Of Ireland,International,79,76,75,75,0
+2009,Cameroon,International,76,76,71,75,0
+2009,Bulgaria,International,81,75,70,74,0
+2009,Norway,International,78,74,74,74,0
+2009,Ukraine,International,78,72,68,74,0
+2009,Australia,International,75,75,74,74,0
+2009,Poland,International,75,73,68,74,0
+2009,Belgium,International,74,74,74,73,0
+2009,United States,International,71,75,72,73,0
+2009,Austria,International,69,71,75,73,0
+2009,South Africa,International,70,72,68,72,0
+2009,Finland,International,73,68,71,71,0
+2009,Hungary,International,72,72,67,71,0
+2009,Slovenia,International,72,69,66,70,0
+2009,Rep. Of Korea,International,69,69,66,70,0
+2009,Ecuador,International,69,66,63,70,0
+2009,Northern Ireland,International,71,69,71,69,0
+2009,China PR,International,63,63,65,65,0
+2009,New Zealand,International,65,59,62,60,0
+2008,Spain,International,87,85,82,84,0
+2008,England,International,87,84,83,84,0
+2008,France,International,86,82,82,84,0
+2008,Brazil,International,83,84,80,84,0
+2008,Italy,International,81,83,83,84,0
+2008,Argentina,International,85,80,80,83,0
+2008,Germany,International,84,84,81,82,0
+2008,Portugal,International,76,82,77,82,0
+2008,Holland,International,82,77,71,81,0
+2008,Mexico,International,79,74,77,78,0
+2008,Czech Republic,International,77,79,80,78,0
+2008,Nigeria,International,82,70,78,77,0
+2008,Denmark,International,80,75,75,77,0
+2008,Turkey,International,79,77,71,77,0
+2008,Greece,International,78,72,75,77,0
+2008,Sweden,International,85,74,72,76,0
+2008,Croatia,International,80,73,73,76,0
+2008,Russia,International,80,71,80,76,0
+2008,Switzerland,International,80,75,75,75,0
+2008,Republic Of Ireland,International,80,74,77,75,0
+2008,Paraguay,International,79,75,74,75,0
+2008,Cameroon,International,79,73,71,75,0
+2008,Uruguay,International,78,69,76,75,0
+2008,Scotland,International,75,77,70,75,0
+2008,Norway,International,75,75,75,75,0
+2008,Poland,International,80,73,69,74,0
+2008,Ukraine,International,80,71,67,74,0
+2008,Australia,International,77,73,74,74,0
+2008,United States,International,77,71,73,74,0
+2008,Romania,International,73,65,77,74,0
+2008,Bulgaria,International,79,74,69,73,0
+2008,Belgium,International,74,74,74,73,0
+2008,Finland,International,74,73,73,72,0
+2008,Wales,International,76,71,70,71,0
+2008,South Africa,International,76,69,67,71,0
+2008,Austria,International,73,71,70,71,0
+2008,Slovenia,International,72,60,67,69,0
+2008,Northern Ireland,International,69,67,69,69,0
+2008,Rep. Of Korea,International,68,70,66,69,0
+2008,Ecuador,International,68,64,67,68,0
+2008,Hungary,International,65,67,67,68,0
+2008,China PR,International,61,64,67,65,0
+2008,New Zealand,International,67,61,59,60,0
+2007,France,International,89,83,84,85,0
+2007,England,International,88,85,85,85,0
+2007,Brazil,International,87,83,80,85,0
+2007,Italy,International,87,82,86,85,0
+2007,Spain,International,85,83,82,85,0
+2007,Germany,International,86,85,82,84,0
+2007,Argentina,International,87,80,78,83,0
+2007,Portugal,International,79,79,80,81,0
+2007,Turkey,International,79,76,71,79,0
+2007,Nigeria,International,82,70,76,78,0
+2007,Denmark,International,81,76,69,78,0
+2007,Russia,International,80,73,74,78,0
+2007,Mexico,International,78,73,78,78,0
+2007,Cameroon,International,82,70,73,77,0
+2007,Greece,International,78,76,78,77,0
+2007,Uruguay,International,78,72,75,77,0
+2007,Serbia,International,76,74,67,77,0
+2007,Croatia,International,75,71,81,77,0
+2007,Australia,International,80,77,72,76,0
+2007,Republic Of Ireland,International,80,76,75,76,0
+2007,Sweden,International,79,76,71,76,0
+2007,Switzerland,International,77,73,76,76,0
+2007,Rep. Of Korea,International,75,75,75,76,0
+2007,Ukraine,International,82,69,70,75,0
+2007,Paraguay,International,79,73,70,75,0
+2007,Norway,International,77,75,74,75,0
+2007,Belgium,International,74,76,78,75,0
+2007,United States,International,72,71,73,75,0
+2007,Bulgaria,International,83,73,69,74,0
+2007,Poland,International,76,70,70,74,0
+2007,Finland,International,75,70,75,74,0
+2007,Scotland,International,73,77,74,74,0
+2007,Romania,International,72,69,77,73,0
+2007,Austria,International,70,68,70,73,0
+2007,Wales,International,78,74,68,72,0
+2007,Slovenia,International,77,69,69,72,0
+2007,Ecuador,International,71,66,69,70,0
+2007,Tunisia,International,74,64,73,69,0
+2007,Northern Ireland,International,63,67,68,69,0
+2007,Hungary,International,69,67,65,68,0
+2007,China PR,International,69,66,65,68,0
+2006,Brazil,International,92,89,86,89,0
+2006,France,International,92,88,84,87,2
+2006,Italy,International,88,84,88,87,1
+2006,Spain,International,86,86,85,87,0
+2006,England,International,91,85,86,86,0
+2006,Portugal,International,86,86,83,84,4
+2006,Argentina,International,87,81,85,83,0
+2006,Germany,International,85,81,82,83,3
+2006,Czech Republic,International,85,75,79,80,0
+2006,Republic Of Ireland,International,80,81,77,80,0
+2006,Denmark,International,82,79,78,79,0
+2006,Norway,International,83,78,77,78,0
+2006,Croatia,International,80,74,81,78,0
+2006,Sweden,International,85,74,76,77,0
+2006,Switzerland,International,79,75,78,77,0
+2006,Greece,International,65,81,77,77,0
+2006,Uruguay,International,84,77,72,76,0
+2006,Australia,International,83,73,72,76,0
+2006,Nigeria,International,83,72,76,75,0
+2006,United States,International,74,77,74,75,0
+2006,Russia,International,80,70,75,74,0
+2006,Finland,International,77,69,75,74,0
+2006,Scotland,International,72,73,76,74,0
+2006,Bulgaria,International,80,78,68,73,0
+2006,Belgium,International,76,75,71,73,0
+2006,Turkey,International,75,76,70,73,0
+2006,Cameroon,International,93,70,72,72,0
+2006,Poland,International,74,69,71,72,0
+2006,Paraguay,International,79,68,69,71,0
+2006,Wales,International,78,77,64,71,0
+2006,Mexico,International,72,68,69,71,0
+2006,Austria,International,70,67,73,71,0
+2006,Slovenia,International,72,66,70,70,0
+2006,Romania,International,69,66,73,70,0
+2006,Northern Ireland,International,65,67,70,69,0
+2006,Tunisia,International,69,70,68,67,0
+2006,Costa Rica,International,67,69,65,67,0
+2006,China PR,International,70,66,62,65,0
+2006,Hungary,International,66,59,63,63,0
+2005,France,International,94,89,84,88,0
+2005,Brazil,International,92,88,87,88,0
+2005,Spain,International,90,88,86,88,0
+2005,England,International,89,88,88,88,0
+2005,Italy,International,92,83,86,87,0
+2005,Argentina,International,86,85,87,85,0
+2005,Germany,International,81,85,85,85,0
+2005,Portugal,International,85,83,83,83,0
+2005,Czech Republic,International,83,85,81,83,0
+2005,Denmark,International,85,80,77,80,0
+2005,Republic Of Ireland,International,79,80,78,80,0
+2005,United States,International,78,79,77,79,0
+2005,Greece,International,75,78,81,79,0
+2005,Turkey,International,81,81,73,78,0
+2005,Sweden,International,83,76,75,77,0
+2005,Switzerland,International,78,77,77,77,0
+2005,Scotland,International,73,76,78,77,0
+2005,Australia,International,85,74,72,76,0
+2005,Uruguay,International,82,75,75,76,0
+2005,Croatia,International,74,75,80,76,0
+2005,Wales,International,82,80,67,75,0
+2005,Norway,International,76,73,77,75,0
+2005,Cameroon,International,72,78,75,75,0
+2005,Bulgaria,International,81,74,69,73,0
+2005,Nigeria,International,77,71,74,73,0
+2005,Belgium,International,74,75,71,73,0
+2005,Finland,International,78,66,71,72,0
+2005,Poland,International,71,71,71,72,0
+2005,Russia,International,64,73,72,72,0
+2005,Romania,International,71,74,67,71,0
+2005,Paraguay,International,78,67,68,70,0
+2005,Mexico,International,70,71,68,70,0
+2005,Costa Rica,International,72,70,65,69,0
+2005,Slovenia,International,68,69,70,69,0
+2005,Austria,International,74,65,69,68,0
+2005,Northern Ireland,International,65,67,67,68,0
+2005,China PR,International,71,66,62,65,0
+2005,Tunisia,International,69,68,63,64,0
+2005,Hungary,International,65,58,63,62,0
