@@ -6,6 +6,8 @@ from sklearn.datasets.samples_generator import make_blobs
 data = pd.read_csv("results.csv")
 something = data["date"].str.split(pat='-', expand=True)
 data["Year"] = something[0]
+
+data = data[data['tournament'] != 'FIFA World Cup']
  
 print(len(data))
 
@@ -23,7 +25,7 @@ for team in teams:
 
 new_df = pd.DataFrame(new_data)
 
-new_df.head()
+# new_df.head()
 
 new_df["Wins"] = 0
 new_df["Losses"] = 0
@@ -55,13 +57,21 @@ for i, r in new_df.iterrows():
     scored = 0
     against = 0
     for index, row in loop_df.iterrows():
-        if row['home_score'] > row['away_score']:
-            new_df.loc[i, 'Wins'] += 1
-        elif row['home_score'] == row['away_score']:
-            new_df.loc[i, 'Draws'] += 1
+        if row['home_team'] == r['Country']:            
+            if row['home_score'] > row['away_score']:
+                new_df.loc[i, 'Wins'] += 1
+            elif row['home_score'] == row['away_score']:
+                new_df.loc[i, 'Draws'] += 1
+            else:
+                new_df.loc[i, 'Losses'] +=1
         else:
-            new_df.loc[i, 'Losses'] +=1
-            
+            if row['home_score'] > row['away_score']:
+                new_df.loc[i, 'Losses'] += 1
+            elif row['home_score'] == row['away_score']:
+                new_df.loc[i, 'Draws'] += 1
+            else:
+                new_df.loc[i, 'Wins'] +=1
+                
         if row['home_team'] == r['Country']:
             new_df.loc[i, 'Points Scored'] = new_df.loc[i, 'Points Scored'] + row['home_score']
             new_df.loc[i, 'Points Against'] =  new_df.loc[i, 'Points Against'] + row['away_score'] 
@@ -73,11 +83,11 @@ new_df['Ttl Games'] = new_df['Wins'] + new_df['Draws'] + new_df['Losses']
 new_df['Win Pct'] = new_df['Wins'] / new_df['Ttl Games']
 new_df['PPG'] = new_df['Points Scored'] / new_df['Ttl Games']
 
-placement_df = pd.read_csv('raw_winners.csv')
+# placement_df = pd.read_csv('final_day.csv')
 
-new_df = pd.merge(new_df, placement_df,  how='left', left_on=['Year','Country'], right_on = ['year','team'])
+# new_df = pd.merge(new_df, placement_df,  how='left', left_on=['Year','Country'], right_on = ['year','team'])
 
 
 new_df = new_df[new_df['Ttl Games'] != 0]
 
-new_df.to_csv("new_dataset.csv")
+new_df.to_csv("final_day.csv")
