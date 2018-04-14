@@ -4,12 +4,6 @@ from flask import Flask, render_template, jsonify, redirect
 import os
 import pandas as pd
 
-from sqlalchemy.ext.automap import automap_base
-from sqlalchemy.orm import Session
-from sqlalchemy import create_engine, func
-from sqlalchemy import func, or_, and_
-from sqlalchemy import desc
-
 
 
 
@@ -32,6 +26,15 @@ def heatmap():
     
     return render_template('map.html')
 
+@app.route('/viz')
+def viz():
+    
+    return render_template('viz.html')
+
+@app.route('/learn')
+def learn():
+    
+    return render_template('learn.html')
 
 
 

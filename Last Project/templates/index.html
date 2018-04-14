@@ -27,10 +27,12 @@
       <div class="nav-scroller py-1 mb-2">
         <nav class="nav d-flex justify-content-between">
           <a class="p-2 text-white" href="/">Home Page</a>
-          <a class="p-2 text-white" href="/map">Team Map</a>
+          <a class="p-2 text-white" href="/map">Teams Map</a>
+          <a class="p-2 text-white" href="/viz">Interactions</a>
+          <a class="p-2 text-white" href="/learn" target="_blank">Linear</a>
           <a class="p-2 text-primary"> Team Repos:</a>
           <a class="p-2 text-white" href="https://github.com/tfox72" target="_blank">Todd Fox</a>
-          <a class="p-2 text-white" href="https://github.com/a10doan" target="_blank">Alber Doan</a>
+          <a class="p-2 text-white" href="https://github.com/a10doan" target="_blank">Albert Doan</a>
           <a class="p-2 text-white" href="https://github.com/danapong" target="_blank">Dana Pong</a>
           <a class="p-2 text-white" href="https://github.com/jdgonz" target="_blank">Joel Gonzales</a>
           <a class="p-2 text-white" href="https://github.com/imanjani1" target="_blank">Iman Jani</a>
@@ -72,15 +74,14 @@
             <h3>Our Analysis was conducted in Scikit-Learn</h3>
             
             <p>A sample of our code below:</p>
-            <pre><code class="text-danger">from sklearn import datasets
-              import numpy as np
-              
-              iris = datasets.load_iris()
-              X = iris.data[:, [2, 3]]
-              y = iris.target
-              
-              print('Class labels:', np.unique(y))</code></pre>
-            <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+            <pre><code class="text-danger"># Used X_test_scaled, y_test_scaled, and model.predict(X_test_scaled) to calculate MSE and R2
+
+                from sklearn.metrics import mean_squared_error
+                MSE = mean_squared_error(y_test_scaled, predictions)
+                r2 = model.score(X_test_scaled, y_test_scaled)
+                print(f"MSE: {MSE}, R2: {r2}")
+                </code></pre>
+
             <p>For more on Scikit-Learn please visit: <a href="http://scikit-learn.org/stable/">scikit-learn.org</a></p>
             
             <ul>
@@ -162,7 +163,7 @@
 
     </main><!-- /.container -->
 
-    <footer class="blog-footer">
+    <footer class="blog-footer text-white bg-dark">
         <a href="#">Back to top</a>
     </footer>
 
@@ -176,7 +177,7 @@
     <script src="/static/js/holder.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootlint/0.14.2/bootlint.min.js">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.0.0/cyborg/bootstrap.min.css" rel="stylesheet" integrity="sha384-HOjmaybB3GQTM8HunY46MvK7ngm9b/eRGOWESCQ/s+Vk4omobTY5+FXqurpSFcbz" crossorigin="anonymous">">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.0.0/cyborg/bootstrap.min.css" rel="stylesheet" integrity="sha384-HOjmaybB3GQTM8HunY46MvK7ngm9b/eRGOWESCQ/s+Vk4omobTY5+FXqurpSFcbz" crossorigin="anonymous">
     <script>
       Holder.addTheme('thumb', {
         bg: '#55595c',
