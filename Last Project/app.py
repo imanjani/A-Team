@@ -36,8 +36,10 @@ def learn():
     
     return render_template('learn.html')
 
-
-
+@app.route('/logis')
+def logis():
+    
+    return render_template('Logistic_Reg_WorldCup.html')
 
 
 if __name__ == "__main__":
